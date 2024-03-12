@@ -51,6 +51,12 @@ header {
     color: var(--color-ternario);
   }
 
+  @media (max-width:800px){
+      a{
+        display: none;
+      }
+  }
+
   /* *********************MAIN-SECTION******************************************* */
 
   
@@ -169,3 +175,112 @@ header {
 }
 
 /* *********************************ABOUT US***************************************************************** */
+
+.AboutUs-Section{
+    background: var(--color-primary);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 100px;
+    align-items: center;
+   }
+  
+  
+  .AboutUs-imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .AboutUs-imagen img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .AboutUs-Texto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    padding-left: 10%;
+  }
+  
+  .AboutUs-Texto h4{
+    color: var(--color-ternario);
+    font-weight: 500;
+  }
+  
+  .AboutUs-Texto h1, p{
+    color: var(--color-secundary);
+  }
+  
+  .AboutUs-Texto h1{
+    font-size: 40px;
+    font-weight: 500;
+  }
+  
+  .AboutUs-Texto p{
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--color-secundary);
+  }
+  
+  .AboutUs-Texto button{
+    width: 30%;
+    padding: 10px;
+    background: var(--color-ternario);
+    color: var(--color-secundary);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  @media (max-width:800px){
+    .AboutUs-Section{
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 20px;
+    }
+  
+    .AboutUs-Texto{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      width: 100%;
+      padding: 0;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .AboutUs-Texto h4{
+      font-size: 20px;
+      align-items: center;
+    }
+  
+    .AboutUs-Texto h1{
+      font-size: 30px;
+    }
+    
+    .AboutUs-Texto p{
+      font-size: 15px;
+      font-weight: 300;
+    }
+  
+    .AboutUs-Texto button{
+      padding: 15px;
+      width: 50%;
+    }
+  
+    .AboutUs-imagen img{
+      padding-top: 10px;
+      width: 100%;
+    }
+  
+  }
+  
+  /* **********************FOOD MENU******************************************************************** */
