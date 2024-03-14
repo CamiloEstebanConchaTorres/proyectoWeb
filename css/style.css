@@ -732,7 +732,7 @@ input[type="text"] {
 
 .item {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     grid-gap: 70px;
     align-items: center;
     padding: 10px;
@@ -764,3 +764,65 @@ input[type="text"] {
 img[type="imagencarro"]{
     width: 50px;
 }
+
+.item_carritos_Abajo{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 70px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.columna_Abajo_carrito{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  gap: 50px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.Comprar_ahora , .column_abajo_Carrito{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(14, 85, 14);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.column_abajo_Carrito a{
+  color: white;
+  text-decoration: none;
+}
+
+.Comprar_ahora a{
+  color: white;
+  text-decoration: none;
+}
+
+.columna_Abajo_carrito_cantidad p{
+  font-size: 14px;
+}
+
+.columna_Abajo_carrito_cantidad small{
+  font-size: 16px;
+}
+
+/* ****************************************+CARRITO VACIO******************************** */
+
+.carritovacioh2 h2{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* *******************************************CARRITOLLENO*********************************** */
+
+.imagenpantalon01{
+  cursor: pointer;
+}
+
+
