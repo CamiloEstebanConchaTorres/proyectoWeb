@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
 }
 
 /*********************MENU VERTICAL IZQUIERDO********************* */
@@ -11,7 +12,7 @@
     left: 0;
     top: 0;
     bottom: 0;
-    background-color: #f0f0f0;
+    background-color: black;
     padding: 50px;
     width: 30%;
     height: auto;
@@ -51,7 +52,7 @@
   .sidebar_section_medio a{
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: orange;
   }
   .sidebar_section_medio a:hover{
     color: blue;
@@ -72,7 +73,7 @@
   .sidebar_section_down a{
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: orange;
   }
 
   .sidebar_section_down a:hover{
@@ -97,7 +98,7 @@
     left: 30%;
     top: 0;
     bottom: 0;
-    background-color: #f0f0f0;
+    background-color: black;
     padding: 50px;
     width: 70%;
     height: auto;
@@ -110,17 +111,17 @@
     justify-content: start;
     align-content: start;
     overflow-y: scroll;
-    border: 1px solid black;
+    border: 2px solid orange;
     height: 100%;
     padding: 15px;
-    background: #fff;
+    background: rgb(15, 15, 15);
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
 
 .box {
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid rgb(129, 190, 15);
     padding-top: 10px;
     border-radius: 10px;
     border-bottom: 0;
@@ -144,7 +145,7 @@ h1 {
     text-align: left;
     width: 100%;
     gap: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(129, 190, 15);
     border-radius: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -165,6 +166,13 @@ h1 {
     border-radius: 8px;
 }
 
+@media only screen and (max-width: 768px) {
+  .sidebar, .sidebar_abrigos, .sidebar_camisetas, .sidebar_pantalones .main-content, .main-content_abrigos, .main-content_camisetas, .main-content_carrito, .main-content_pantalones, .mai {
+      width: 100%;
+      left: 0;
+  }
+}
+
 /* ***********************************ABRIGOS*********************************************************** */
 
 .sidebar_abrigos {
@@ -172,7 +180,7 @@ h1 {
     left: 0;
     top: 0;
     bottom: 0;
-    background-color: #f0f0f0;
+    background-color: black;
     padding: 50px;
     width: 30%;
     height: auto;
@@ -185,6 +193,8 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 100%;
+
+
   }
   
   .sidebar_section_arriba_abrigos h1 {
@@ -212,7 +222,7 @@ h1 {
   .sidebar_section_medio_abrigos a{
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: orange;
   }
   .sidebar_section_medio_abrigos a:hover{
     color: blue;
@@ -233,7 +243,7 @@ h1 {
   .sidebar_section_down_abrigos a{
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: orange;
   }
 
   .sidebar_section_down_abrigos a:hover{
@@ -258,7 +268,7 @@ h1 {
     left: 30%;
     top: 0;
     bottom: 0;
-    background-color: #f0f0f0;
+    background-color: black;
     padding: 50px;
     width: 70%;
     height: auto;
@@ -271,17 +281,18 @@ h1 {
     justify-content: start;
     align-content: start;
     overflow-y: scroll;
-    border: 1px solid black;
+    border: 2px solid orange;
     height: 100%;
     padding: 15px;
     background: #fff;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    background: rgb(15, 15, 15);
 }
 
 .box_abrigos {
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid orange;
     padding-top: 10px;
     border-radius: 10px;
     border-bottom: 0;
@@ -305,7 +316,7 @@ h1 {
     text-align: left;
     width: 100%;
     gap: 10px;
-    border: 1px solid black;
+    border: 1px solid orange;
     border-radius: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -333,7 +344,7 @@ h1 {
     left: 0;
     top: 0;
     bottom: 0;
-    background-color: #f0f0f0;
+    background-color: black;
     padding: 50px;
     width: 30%;
     height: auto;
@@ -373,7 +384,7 @@ h1 {
   .sidebar_section_medio_camisetas a{
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: orange;
   }
   .sidebar_section_medio_camisetas a:hover{
     color: blue;
@@ -394,7 +405,7 @@ h1 {
   .sidebar_section_down_camisetas a{
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: orange;
   }
 
   .sidebar_section_down_camisetas a:hover{
@@ -419,7 +430,7 @@ h1 {
     left: 30%;
     top: 0;
     bottom: 0;
-    background-color: #f0f0f0;
+    background-color: black;
     padding: 50px;
     width: 70%;
     height: auto;
@@ -432,17 +443,18 @@ h1 {
     justify-content: start;
     align-content: start;
     overflow-y: scroll;
-    border: 1px solid black;
+    border: 2px solid orange;
     height: 100%;
     padding: 15px;
     background: #fff;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    background: rgb(15, 15, 15);
 }
 
 .box_camisetas {
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid orange;
     padding-top: 10px;
     border-radius: 10px;
     border-bottom: 0;
@@ -466,7 +478,7 @@ h1 {
     text-align: left;
     width: 100%;
     gap: 10px;
-    border: 1px solid black;
+    border: 1px solid orange;
     border-radius: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -494,7 +506,7 @@ h1 {
     left: 0;
     top: 0;
     bottom: 0;
-    background-color: #f0f0f0;
+    background-color: black;
     padding: 50px;
     width: 30%;
     height: auto;
@@ -534,7 +546,7 @@ h1 {
   .sidebar_section_medio_pantalones a{
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: orange;
   }
   .sidebar_section_medio_pantalones a:hover{
     color: blue;
@@ -555,7 +567,7 @@ h1 {
   .sidebar_section_down_pantalones a{
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: orange;
   }
 
   .sidebar_section_down_pantalones a:hover{
@@ -580,7 +592,7 @@ h1 {
     left: 30%;
     top: 0;
     bottom: 0;
-    background-color: #f0f0f0;
+    background-color: black;
     padding: 50px;
     width: 70%;
     height: auto;
@@ -593,17 +605,18 @@ h1 {
     justify-content: start;
     align-content: start;
     overflow-y: scroll;
-    border: 1px solid black;
+    border: 2px solid orange;
     height: 100%;
     padding: 15px;
     background: #fff;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    background: rgb(15, 15, 15);
 }
 
 .box_pantalones {
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid orange;
     padding-top: 10px;
     border-radius: 10px;
     border-bottom: 0;
@@ -627,7 +640,7 @@ h1 {
     text-align: left;
     width: 100%;
     gap: 10px;
-    border: 1px solid black;
+    border: 1px solid orange;
     border-radius: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -655,7 +668,7 @@ h1 {
     left: 30%;
     top: 0;
     bottom: 0;
-    background-color: #f0f0f0;
+    background-color: black;
     padding: 50px;
     width: 70%;
     height: auto;
@@ -669,16 +682,17 @@ h1 {
     justify-content: start;
     align-content: start;
     overflow-y: scroll;
-    border: 1px solid black;
+    border: 2px solid orange;
     height: 100%;
     padding: 15px;
     background: #fff;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    background: rgb(15, 15, 15);
 }
 .box_carrito {
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid orange;
     padding-top: 10px;
     border-radius: 10px;
     border-bottom: 0;
@@ -701,7 +715,7 @@ h1 {
     align-items: center;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid orange;
 }
 
 
@@ -737,7 +751,7 @@ input[type="text"] {
     align-items: center;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid orange;
 }
 
 .item img {
@@ -778,7 +792,7 @@ img[type="imagencarro"]{
 .columna_Abajo_carrito{
   display: flex;
   flex-direction: row;
-  border: 1px solid black;
+  border: 1px solid orange;
   gap: 50px;
   padding: 10px;
   border-radius: 15px;
